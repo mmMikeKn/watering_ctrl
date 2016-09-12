@@ -13,3 +13,6 @@ Additional hardware:
 
 Water source:
 	12V Universal Windscreen Washer Pump Bottle Kit 
+
+
+![image](add_data/screenshot.jpg)
