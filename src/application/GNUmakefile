@@ -11,7 +11,6 @@ CXXFLAGS += -I./ \
 		-I$(SRC_DIR)/libhardware \
 		-I$(SRC_DIR)/libcmsis \
 		-I$(SRC_DIR)/liblcd \
-		-I$(SRC_DIR)/libdsp \
 		-DUSE_STDPERIPH_DRIVER \
 		$(APP_DEFS) \
 		$(FREERTOS_DEFS) \
@@ -22,13 +21,12 @@ CFLAGS += -I./ \
 		-I$(SRC_DIR)/liblcd \
 		-I$(SRC_DIR)/libhardware \
 		-I$(SRC_DIR)/libcmsis \
-		-I$(SRC_DIR)/libdsp \
 		-DUSE_STDPERIPH_DRIVER \
 		$(APP_DEFS) \
 		$(FREERTOS_DEFS) \
 		$(HARDWARE_DEFS)
 
-LIBS =  -llcd -lhardware -lcmsis -ldsp -lm 
+LIBS =  -llcd -lhardware -lcmsis -lm 
 
 CUSTOM_RM_FILES=$(OUT_DIR)/image.*
 

@@ -36,8 +36,3 @@ lcd_all:
 
 lcd_clean:
 	make clean -C liblcd
-dsp_all:
-	make all -C libdsp
-
-dsp_clean:
-	make clean -C libdsp

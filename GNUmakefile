@@ -31,14 +31,4 @@ lcd_all:
 
 lcd_clean:
 	make lcd_clean -C src
-
-# управление библиотекой lcd
-dsp_all:
-	make dsp_all -C src
-
-dsp_clean:
-	make dsp_clean -C src
-
-
-
 	
